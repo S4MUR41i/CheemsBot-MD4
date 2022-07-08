@@ -1093,12 +1093,27 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `Hallo ${pushname}
-Name Owner : Asrori Amin
-Country : Kudus,Jateng,Indonesia
-Hobby : Menyanyi,Baca Buku,Belajar
-
-Press The Button Below`
+                const menulist = `┌─❖
+│「 Hi 👋 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  How Are You? 😄
+│└────────────┈ ⳹
+│
+└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
+│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+└┬────────────┈ ⳹
+   │✑  Please Select
+   │✑  The Button Below
+   └─────────────┈ ⳹`
    
    //randoming function
 function pickRandom(list) {
@@ -8758,7 +8773,7 @@ sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 break
-case 'alive': case 'panel': case 'amin': case 'list': case 'menu': case 'help': case '?': {
+case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
