@@ -37,9 +37,9 @@ global.APIKeys = {
 
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
+global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = true //auto recording (true to on, false to off)
+global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //semt menu variants
@@ -73,10 +73,10 @@ global.packname = "Asrori Amin " //ur sticker watermark packname
 global.author = "" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur logo pic
-global.err4r = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur error pic
-global.thumb = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['6288227248988'] //ur premium numbers
