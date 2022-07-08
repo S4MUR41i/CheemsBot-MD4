@@ -73,10 +73,10 @@ global.packname = "Asrori Amin " //ur sticker watermark packname
 global.author = "" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur logo pic
+global.err4r = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2.jpg") //ur error pic
+global.thumb = fs.readFileSync("https://telegra.ph/file/6caa87794b1f20336bdd2") //ur thumb pic
 
 //damtabase
 global.premium = ['6288227248988'] //ur premium numbers
